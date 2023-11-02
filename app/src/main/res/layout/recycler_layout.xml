@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="15dp"
+    android:background="@android:color/transparent"
+    android:layout_width="150dp"
+    android:backgroundTint="#8E24AA"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recycler_time"
+            android:padding="4dp"
+            android:text="Time"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recycler_temperature"
+            android:padding="4dp"
+            android:text="Temperature"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:gravity="center"/>
+        <ImageView
+            android:id="@+id/recycler_image"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_margin="4dp"
+            android:padding="3dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recycler_windspeed"
+            android:padding="4dp"
+            android:text="WindSpeed k/h"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
