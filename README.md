@@ -4,10 +4,7 @@ A real-time weather analysis application.
 
 ## Overview
 
-WeatherLite is a feature-rich Android application designed to provide you with accurate and hyper-localized weather information. With WeatherLite, you can make informed decisions based on real-time weather data, whether you're planning your daily activities, outdoor events, or simply want to stay updated on the weather conditions.
-
-### Created By
-Akshat Pandya  
+WeatherLite is a feature-rich Android application designed to provide you with accurate and hyper-localized weather information. With WeatherLite, you can make informed decisions based on real-time weather data, whether you're planning your daily activities, outdoor events, or simply want to stay updated on the weather conditions. 
 
 ## Features
 
